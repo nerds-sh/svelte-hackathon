@@ -18,13 +18,13 @@
        <NerdsLogo/>
     </NavBrand>
     <NavHamburger on:click={toggle} />
-    <NavUl {hidden}>
+    <NavUl {hidden} class="justify-center">
         {#each menuItems as menuItem}
             <MenuItem text={menuItem.text} to={menuItem.link}/>
         {/each}
-        <LanguageSelector/>
+        <LanguageSelector className="visible lg:hidden" />
     </NavUl>
-
+    <LanguageSelector className="hidden lg:flex" />
 </Navbar>
 
 
