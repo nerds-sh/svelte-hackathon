@@ -11,7 +11,7 @@
     <CurliedText>
         {title}
     </CurliedText>
-    <div class="w-4/6 text-ellipsis text-[#818EA4] text-sm lg:text-md xl:text-lg 2xl:text-xl">
+    <div class="w-4/6 text-ellipsis text-[#818EA4] text-xs lg:text-sm xl:text-md 2xl:text-lg">
         {description}
     </div>
     <div class="absolute right-0 bottom-0 z-[-1] mr-12 mb-12 blur-sm">
