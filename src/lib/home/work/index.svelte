@@ -4,7 +4,7 @@
     import Button from './button.svelte'
 </script>
 
-<div class="flex flex-col items-center justify-center py-24">
+<div class="flex flex-col items-center justify-center py-24 text-white">
     <Title />
     <Graph />
     <Button />
