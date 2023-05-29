@@ -1,6 +1,6 @@
 <script>
-    import NerdsLogo from './nerds_logo.svg?component'
-    import {Navbar, NavBrand, NavHamburger, NavLi, NavUl} from "flowbite-svelte";
+    import NerdsLogo from '../assets/nerds_logo.svg?component'
+    import {Navbar, NavBrand, NavHamburger, NavUl} from "flowbite-svelte";
     import LanguageSelector from "$lib/top-navigation/LanguageSelector.svelte";
     import MenuItem from "$lib/top-navigation/MenuItem.svelte";
     const menuItems = [

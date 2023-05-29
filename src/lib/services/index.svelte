@@ -18,7 +18,7 @@
     <button class="rounded-lg bg-white text-black py-3 px-8 font-bold mb-14">
         Let's talk
     </button>
-    <div class="grid grid-cols-4 px-5 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 px-5 gap-6">
         {#each services as service}
             <Card {...service}/>
         {/each}
