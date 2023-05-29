@@ -10,9 +10,10 @@
 
 <div class="page">
     <Header />
-    <slot />
+    <div class="m-0 md:mx-20 lg:mx-32 xl:mx-20">
+        <slot />
+    </div>
     <Footer/>
-
 </div>
 
 <style>
