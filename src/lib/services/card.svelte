@@ -7,14 +7,24 @@
 </script>
 
 <div class="rounded-lg shadow-md bg-gray-600 flex flex-col p-8 bg-opacity-30 border-2 border-gray-600 border-opacity-30 backdrop-filter backdrop-blur-sm">
-    <svelte:component this={icon} class="w-1/6 mb-6" />
+    <svelte:component this={icon} class="mb-6" />
     <CurliedText>
         {title}
     </CurliedText>
-    <div class="w-4/6 text-ellipsis text-[#818EA4] text-lg">
+    <div class="w-4/6 text-ellipsis text-[#818EA4] text-sm lg:text-md xl:text-lg 2xl:text-xl">
         {description}
     </div>
-    <div class="absolute right-0 bottom-0 z-[-1] mr-2 mb-2 blur-sm">
-        <svelte:component this={icon} class="stroke-white" />
+    <div class="absolute right-0 bottom-0 z-[-1] mr-12 mb-12 blur-sm">
+        <svelte:component this={icon} class="blurred-icon" />
     </div>
 </div>
+
+<style lang="scss">
+    :global(.blurred-icon > path) {
+      stroke: #818EA4;
+      opacity: 30%;
+    }
+    :global(.blurred-icon) {
+      transform: scale(3);
+    }
+</style>
