@@ -22,8 +22,9 @@
         {#each menuItems as menuItem}
             <MenuItem text={menuItem.text} to={menuItem.link}/>
         {/each}
+        <LanguageSelector/>
     </NavUl>
-    <LanguageSelector/>
+
 </Navbar>
 
 
