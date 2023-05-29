@@ -4,8 +4,8 @@
 
     export let to;
     export let text;
-    console.log($page.url.pathname);
-    const isActive = $page.url.pathname === to
+
+    $: isActive = $page.url.pathname === to
 </script>
 
 <NavLi href={to}>

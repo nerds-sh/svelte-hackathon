@@ -7,7 +7,7 @@
         {link:'/', text:"Case Studies"},
         {link:'/services', text:"Services"},
         {link:'/products', text:"Products"},
-        {link:'/carriers', text:"Carriers"},
+        {link:'/carrers', text:"Carrers"},
         {link:'/blog', text:"Blog"},
         {link:'/contact', text:"Contact"}
     ]
