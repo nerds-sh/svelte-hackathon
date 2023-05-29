@@ -3,7 +3,7 @@
     import Language from './language.svg?component'
 </script>
 
-<Button size="lg"><Chevron><Language/></Chevron></Button>
+<Button class="dark:text-white p-4" size="lg"><Chevron><Language/></Chevron></Button>
 <Dropdown >
     <DropdownItem>EN</DropdownItem>
     <DropdownItem>RO</DropdownItem>
