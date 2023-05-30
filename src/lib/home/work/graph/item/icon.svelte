@@ -10,5 +10,11 @@
     <div class={`mb-6 ${flip}`}>
         <LineSvg />
     </div>
-    <svelte:component this={icon} />
+    <svelte:component this={icon} class="icon" />
 </div>
+
+<style lang="scss">
+    :global(.icon > rect) {
+        fill: #0F1A2B;
+    }
+</style>
