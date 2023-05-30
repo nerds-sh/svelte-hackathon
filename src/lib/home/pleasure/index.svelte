@@ -5,7 +5,7 @@
     import {topics} from './topics.js'
 </script>
 
-<div class="shadow-lg rounded-2xl flex pl-20 pt-20 pb-20 justify-between background">
+<div class="shadow-lg rounded-2xl flex pl-20 pt-20 pb-20 pr-20 md:pr-0 justify-between background">
     <div class="flex flex-col items-center">
         <CurliedText>
             our pleasure
@@ -17,16 +17,14 @@
             The team is specialized in several technologies and architectures
             but these are the ones that caught our attention.
         </div>
-        <div class="grid grid-cols-2 gap-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
             {#each topics as {text}}
                 <Card {text}/>
             {/each}
         </div>
     </div>
 
-    <div>
-        <img src={rocket} alt="rocket-illustration">
-    </div>
+    <img src={rocket} alt="rocket-illustration" class="hidden lg:block">
 </div>
 
 <style lang="scss">

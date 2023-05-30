@@ -3,16 +3,16 @@
     import HashTag from './hashtag.svelte'
 </script>
 
-<div class="w-full flex flex-col my-40">
+<div class="w-full flex flex-col my-40 items-center md:items-baseline">
     <CurliedText braceColor="text-white" textColor="text-blue-500">
         about us
     </CurliedText>
 
-    <div class="grid grid-cols-2 gap-3">
-        <div class="text-5xl text-white font-bold mb-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div class="text-5xl text-white font-bold mb-5 text-center md:text-left">
             Meet the Nerds
         </div>
-        <div class="flex items-center justify-evenly">
+        <div class="flex items-center justify-evenly flex-col md:flex-row">
             <HashTag>
                 #software development
             </HashTag>

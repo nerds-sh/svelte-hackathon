@@ -16,8 +16,8 @@
         <h3 class="-translate-y-1/2">
             <CurliedText
                     {className}
-                    braceColor="text-blue-500 text-3xl font-bold"
-                    textColor="text-white text-3xl">
+                    braceColor="text-blue-500 text-md md:text-3xl font-bold"
+                    textColor="text-white text-sm md:text-3xl">
                 {title}
             </CurliedText>
         </h3>

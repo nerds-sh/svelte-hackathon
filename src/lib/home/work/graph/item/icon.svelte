@@ -6,7 +6,7 @@
     export let icon
 </script>
 
-<div class={`flex items-center -ms-px ${iconContainer}`}>
+<div class={`items-center -ms-px hidden md:flex ${iconContainer}`}>
     <div class={`mb-6 ${flip}`}>
         <LineSvg />
     </div>
