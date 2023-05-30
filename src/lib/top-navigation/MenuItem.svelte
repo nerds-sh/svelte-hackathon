@@ -1,5 +1,4 @@
 <script>
-    import {NavLi} from "flowbite-svelte";
     import {page} from "$app/stores";
 
     export let to;
@@ -8,13 +7,13 @@
     $: isActive = $page.url.pathname === to
 </script>
 
-<NavLi href={to}>
-    <span class:navActive="{isActive}">
+<a href={to}>
+    <span class="text-white" class:navActive="{isActive}">
         {text}
     </span>
-</NavLi>
+</a>
 
-<style>
+<style lang="scss">
     .navActive {
         color: white;
     }
@@ -22,11 +21,11 @@
     .navActive:before {
         content: "{";
         padding: 5px;
-        color: #44A6F5;
+        @apply text-blue-500;
     }
     .navActive:after {
         content: "}";
         padding: 5px;
-        color: #44A6F5;
+        @apply text-blue-500;
     }
 </style>
