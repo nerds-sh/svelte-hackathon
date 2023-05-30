@@ -3,7 +3,7 @@
     import HashTag from './hashtag.svelte'
 </script>
 
-<div class="w-full flex flex-col mb-20">
+<div class="w-full flex flex-col my-40">
     <CurliedText braceColor="text-white" textColor="text-blue-500">
         about us
     </CurliedText>
