@@ -1,9 +1,9 @@
 <script>
-    import Hero from '$lib/hero/index.svelte'
-    import Meet from '$lib/meet/index.svelte'
-    import Services from '$lib/services/index.svelte'
+    import Hero from '$lib/home/hero/index.svelte'
+    import Meet from '$lib/home/meet/index.svelte'
+    import Services from '$lib/home/services/index.svelte'
     import Work from '$lib/home/work/index.svelte'
-    import Testimonials from '$lib/testimonials/index.svelte'
+    import Testimonials from '$lib/home/testimonials/index.svelte'
 </script>
 
 <Hero/>

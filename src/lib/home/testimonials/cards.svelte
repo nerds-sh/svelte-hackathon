@@ -1,5 +1,5 @@
 <script>
-    import { testimonials } from "$lib/testimonials/testimonials.js"
+    import { testimonials } from "$lib/home/testimonials/testimonials.js"
     import Card from './card.svelte'
 </script>
 

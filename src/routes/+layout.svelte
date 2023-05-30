@@ -6,6 +6,7 @@
 
 <svelte:head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Nerds.sh</title>
 </svelte:head>
 
 <div class="page">

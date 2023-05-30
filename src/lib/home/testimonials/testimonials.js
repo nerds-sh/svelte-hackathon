@@ -1,9 +1,9 @@
-import firstText from "$lib/testimonials/firstText.svelte"
-import secondText from "$lib/testimonials/secondText.svelte"
-import thirdText from "$lib/testimonials/thirdText.svelte";
-import fourthText from "$lib/testimonials/fourthText.svelte";
-import fifthText from "$lib/testimonials/fifthText.svelte";
-import sixthText from "$lib/testimonials/sixthText.svelte";
+import firstText from "$lib/home/testimonials/firstText.svelte"
+import secondText from "$lib/home/testimonials/secondText.svelte"
+import thirdText from "$lib/home/testimonials/thirdText.svelte";
+import fourthText from "$lib/home/testimonials/fourthText.svelte";
+import fifthText from "$lib/home/testimonials/fifthText.svelte";
+import sixthText from "$lib/home/testimonials/sixthText.svelte";
 export const testimonials = [
     { text: firstText, name: 'Radu Piloiu', organization: 'ODU' },
     { text: secondText, name: 'Dragomir Draganov', organization: 'Fundraising Platform' },
