@@ -6,7 +6,7 @@
     export let description
 </script>
 
-<div class="rounded-lg shadow-md bg-gray-600 flex flex-col p-8 bg-opacity-30 border-2 border-gray-600 border-opacity-30 backdrop-filter backdrop-blur-sm">
+<div class="relative rounded-lg shadow-md bg-gray-600 flex flex-col p-8 bg-opacity-30 border-2 border-gray-600 border-opacity-30 backdrop-filter backdrop-blur-sm">
     <svelte:component this={icon} class="mb-6" />
     <CurliedText>
         {title}
