@@ -26,7 +26,7 @@
     <div id="dropdown">
         <Dropdown frameClass="link-dropdown" placement="bottom" triggeredBy="#dropdown button">
             {#each menuItems as menuItem}
-                <DropdownItem>
+                <DropdownItem defaultClass="bg-primary hover:bg-primary">
                     <MenuItem text={menuItem.text} to={menuItem.link}/>
                 </DropdownItem>
             {/each}
@@ -39,5 +39,7 @@
 <style lang="scss">
     :global(.link-dropdown ) {
         background-color: #0F1A2B;
+        @apply px-3;
+        @apply py-2;
     }
 </style>
